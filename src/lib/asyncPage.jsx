@@ -32,3 +32,4 @@ export function createAsyncPage(asyncRenderFn) {
     return element;
   };
 }
+
