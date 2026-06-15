@@ -29,7 +29,7 @@ async function AboutPage() {
           </p>
         </div>
 
-        
+
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-16">
           {trustSignals.map(({ label, value }) => (
             <div
@@ -46,7 +46,7 @@ async function AboutPage() {
           ))}
         </div>
 
-        {/* Business Intro & Content Grid */}
+
         <div className="bg-white rounded-3xl border border-bakery-beige/80 p-8 sm:p-12 shadow-xs space-y-10 text-left">
           <div className="space-y-4">
             <h2 className="text-2xl font-serif font-extrabold text-bakery-chocolate">
