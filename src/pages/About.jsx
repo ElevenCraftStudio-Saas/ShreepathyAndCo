@@ -29,7 +29,7 @@ async function AboutPage() {
           </p>
         </div>
 
-        {/* Trust Signals */}
+        
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-16">
           {trustSignals.map(({ label, value }) => (
             <div
