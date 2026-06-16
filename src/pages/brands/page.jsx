@@ -21,3 +21,4 @@ async function BrandsPage() {
 }
 
 export default createAsyncPage(BrandsPage);
+
