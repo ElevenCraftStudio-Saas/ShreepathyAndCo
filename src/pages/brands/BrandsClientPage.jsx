@@ -42,7 +42,7 @@ export function BrandsClientPage({ brands: dbBrands }) {
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-bakery-brown/10 text-bakery-brown text-xs font-semibold mb-6 border border-bakery-brown/20">
             <Lucide.Sparkles className="w-4.5 h-4.5 text-bakery-brown animate-pulse" />
-            <span>Karnataka's Premium Bakery Distributor</span>
+            <span>Tamil Nadu's Premium Bakery Distributor</span>
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-black tracking-tight text-bakery-chocolate mb-6">
@@ -50,7 +50,7 @@ export function BrandsClientPage({ brands: dbBrands }) {
           </h1>
           
           <p className="max-w-3xl mx-auto text-lg sm:text-xl text-bakery-chocolate/80 leading-relaxed font-sans mb-10">
-            We proudly partner with industry-leading manufacturers to deliver premium bakery ingredients and food solutions across Karnataka.
+            We proudly partner with industry-leading manufacturers to deliver premium bakery ingredients and food solutions across Tamil Nadu.
           </p>
 
           {/* Quick Stats Grid */}
@@ -59,7 +59,7 @@ export function BrandsClientPage({ brands: dbBrands }) {
               { label: "Partner Brands", val: "15+", icon: "Award" },
               { label: "Baking Ingredients", val: "1,000+", icon: "ChefHat" },
               { label: "Bakery Clients", val: "500+", icon: "HeartHandshake" },
-              { label: "Karnataka Cities", val: "100%", icon: "MapPin" }
+              { label: "Tamil Nadu Cities", val: "100%", icon: "MapPin" }
             ].map((stat, i) => (
               <div key={i} className="bg-white/80 backdrop-blur-xs p-5 rounded-2xl border border-bakery-beige/50 shadow-xs hover:shadow-md hover:border-bakery-brown/30 transition-all duration-300">
                 <div className="flex justify-center mb-3">
@@ -358,7 +358,7 @@ export function BrandsClientPage({ brands: dbBrands }) {
               { val: "50+", label: "Trusted Brands", desc: "National & Global partnerships" },
               { val: "1000+", label: "Ingredients", desc: "Across diverse food categories" },
               { val: "500+", label: "Bakery Clients", desc: "Hotels, cloud kitchens & cafes" },
-              { val: "Karnataka-Wide", label: "Distribution Network", desc: "Reliable statewide deliveries" }
+              { val: "Tamil Nadu-Wide", label: "Distribution Network", desc: "Reliable statewide deliveries" }
             ].map((stat, idx) => (
               <div key={idx} className="flex flex-col items-center">
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-serif font-black text-bakery-brown mb-2">{stat.val}</div>
@@ -409,7 +409,7 @@ export function BrandsClientPage({ brands: dbBrands }) {
             },
             {
               title: "Fast Delivery",
-              desc: "Dedicated logistics network ensuring lightning-fast dispatches to Bangalore, Mysore, and across Karnataka.",
+              desc: "Dedicated logistics network ensuring lightning-fast dispatches to Chennai, Coimbatore, and across Tamil Nadu.",
               icon: "Sparkles"
             }
           ].map((benefit, i) => (
